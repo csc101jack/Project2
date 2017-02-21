@@ -23,3 +23,55 @@
     left: 50%;
     position: absolute;
 }
+
+/* Section Breaks (for seperating sections on webpage) */
+
+#sectionbreak {
+
+    background-color: lightgray;
+
+}
+
+.boldword {
+
+    font-size: 40px;
+}
+
+/* Info Breaks (to display info like current deal etc. */
+
+#infobreak1 {
+
+height: 175px; width: 100%;
+
+background-image: url("photos/treat2.jpg");
+/* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
+
+opacity: 0.5;
+
+}
+#infobreak2 {
+
+height: 175px; width: 100%;
+
+background-image: url("photos/treat3.jpg");
+/* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
+
+opacity: 0.5;
+
+}
+#infobreak3 {
+
+height: 175px; width: 100%;
+
+background-image: url("photos/treat1.jpg");
+/* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
+background-repeat: repeat-x;
+opacity: 0.5;
+
+}
+
+#font {
+
+font-weight: bold;
+
+}
