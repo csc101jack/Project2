@@ -75,3 +75,32 @@ opacity: 0.5;
 font-weight: bold;
 
 }
+/*Name on the profile page */
+.boldword {
+    text-align: center;
+
+    opacity: 0.5;
+}
+
+#sectionbreak1 {
+    text-align: center;
+
+    background-color: lightgray;
+}
+/*profile page stylings*/
+
+
+#profmenu {
+
+    text-align: center;
+
+}
+
+.row {
+    text-align: center;
+}
+
+
+
+
+
