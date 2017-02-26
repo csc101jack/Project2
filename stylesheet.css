@@ -34,39 +34,51 @@
 
 .boldword {
 
-    font-size: 40px;
+    font-size: 40px; text-align: center;
 }
 
 /* Info Breaks (to display info like current deal etc. */
+
+#para1 { text-align: left; font-size: 40px;
+}
+
+#button1 { position: absolute; right: 20px; background-color: indianred; font-size: 40px; border-radius: 25px;
+
+}
 
 #infobreak1 {
 
 height: 175px; width: 100%;
 
-background-image: url("photos/treat2.jpg");
+background-image: url("photos/cookies.jpg");
+
+background-size: 100% auto;
 /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 
-opacity: 0.5;
+/* could have OPACITY if needed here is css for it opacity: 0.5; */
 
 }
 #infobreak2 {
 
 height: 175px; width: 100%;
 
-background-image: url("photos/treat3.jpg");
+background-image: url("photos/buns.jpg");
+
+background-size: 100% auto;
 /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 
-opacity: 0.5;
+
 
 }
 #infobreak3 {
 
 height: 175px; width: 100%;
 
-background-image: url("photos/treat1.jpg");
+background-image: url("photos/muffins.jpg");
+
+background-size: 100% auto;
 /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
-background-repeat: repeat-x;
-opacity: 0.5;
+
 
 }
 
