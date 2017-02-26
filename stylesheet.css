@@ -42,6 +42,12 @@
 #para1 { text-align: left; font-size: 40px;
 }
 
+/* Subcribe Buttons */
+
+#button2 { position: absolute; right: 20px; background-color: palegreen; font-size: 40px; border-radius: 25px;
+
+}
+
 #button1 { position: absolute; right: 20px; background-color: indianred; font-size: 40px; border-radius: 25px;
 
 }
