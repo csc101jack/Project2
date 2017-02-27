@@ -39,9 +39,10 @@
 
 /* Info Breaks (to display info like current deal etc. */
 
-#para1 { text-align: left; font-size: 40px;
+#para1 { text-align: left; font-size: 40px; color: black;
 }
-
+#para2 { text-align: left; font-size: 40px; color: red;
+}
 /* Subcribe Buttons */
 
 #button2 { position: absolute; right: 20px; background-color: palegreen; font-size: 40px; border-radius: 25px;
@@ -54,7 +55,7 @@
 
 #infobreak1 {
 
-height: 175px; width: 100%;
+height: 200px; width: 100%;
 
 background-image: url("photos/cookies.jpg");
 
@@ -66,7 +67,7 @@ background-size: 100% auto;
 }
 #infobreak2 {
 
-height: 175px; width: 100%;
+height: 200px; width: 100%;
 
 background-image: url("photos/buns.jpg");
 
@@ -78,7 +79,7 @@ background-size: 100% auto;
 }
 #infobreak3 {
 
-height: 175px; width: 100%;
+height: 200px; width: 100%;
 
 background-image: url("photos/muffins.jpg");
 
