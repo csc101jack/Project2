@@ -31,3 +31,22 @@ var locations = [
         }
       })(marker, i));
     }
+
+  function newList(order) {
+  youritem = youritem + order;
+  document.getElementById("userOrder").innerHTML = youritem;
+  
+}
+newList("")
+
+var itemTotal = 0;
+var tax = 0;
+var fprice = 0;
+
+function updateTotal(cost) {
+  itemTotal = itemTotal + cost;
+  tax = tax + (itemTotal*0.12);
+  fprice = tax + itemTotal;
+  document.getElementById("itemTotal").innerHTML = pizzaTotal;
+  document.getElementById("tax").innerHTML = tax;
+  document.getElementById("test").innerHTML = fprice;

@@ -45,13 +45,39 @@
 }
 /* Subcribe Buttons */
 
-#button2 { position: absolute; right: 20px; background-color: palegreen; font-size: 40px; border-radius: 25px;
+#button2 { 
+    
+    position: absolute;
+    right: 40px;
+    background-color: palegreen;
+    font-size: 40px; 
+    border-radius: 25px;
 
 }
+
 
 #button1 { position: absolute; right: 20px; background-color: indianred; font-size: 40px; border-radius: 25px;
 
 }
+#pay1 { 
+    position: absolute; 
+    right: 130px; 
+    font-size: 40px; 
+    border-radius: 25px;
+    }
+#pay2 { 
+    position: absolute; 
+    right: 130px; 
+    font-size: 40px; 
+    border-radius: 25px;
+    }
+#pay3 { 
+    position: absolute; 
+    right: 130px; 
+    font-size: 40px; 
+    border-radius: 25px;
+}
+
 
 #infobreak1 {
 
