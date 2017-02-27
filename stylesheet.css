@@ -130,5 +130,23 @@ font-weight: bold;
     
 
 }
+#pay1 { 
+    position: absolute; 
+    right: 130px; 
+    font-size: 40px; 
+    border-radius: 25px;
+    }
+#pay2 { 
+    position: absolute; 
+    right: 130px; 
+    font-size: 40px; 
+    border-radius: 25px;
+    }
+#pay3 { 
+    position: absolute; 
+    right: 130px; 
+    font-size: 40px; 
+    border-radius: 25px;
+}
 
 
