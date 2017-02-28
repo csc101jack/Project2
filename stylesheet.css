@@ -1,10 +1,5 @@
 /* Center brand on mobile*/
 
-#profpic {
-    right: 50px;
-    
-
-}
 @media only screen and (max-width: 768px) {
     .mynavbar .navbar-brand {
         padding: 0px;
@@ -144,6 +139,11 @@ font-weight: bold;
 }
 /*profile page stylings*/
 
+.profilemenu {
+
+font-size: 25px;
+
+}
 
 #profmenu {
 
@@ -151,16 +151,20 @@ font-weight: bold;
 
 }
 
-.row {
+.rowsn {
     text-align: center;
 }
 
 
-#profpic {
-    right: 50px;
-    
-
+#pp {
+    text-align: center;
 }
+
+
+    
+/*payment page stylings*/
+
+
 #pay1 { 
     position: absolute; 
     right: 130px; 
