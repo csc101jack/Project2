@@ -14,6 +14,7 @@
     }
 }
 
+
 /* Center background on navbar */
 
 .mynavbar .navbar-brand {
@@ -75,10 +76,25 @@
     background-image: url("photos/muffins.jpg");
 }
 #welcome {
+<<<<<<< HEAD
     text-align: center;
     font-size: 500%;
+=======
+
+text-align: left; 
+margin: 50px;
+font-size: 500%;
+color: white;
+text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+>>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
 }
 #login {
+<<<<<<< HEAD
     width: 300px;
     height: 300px;
     border: 25px;
@@ -89,6 +105,52 @@
 #blankbreak {
     height: 100px;
     width: 100%;
+=======
+
+width: 500px; 
+height: 300px; 
+border: 25px; 
+background-color: transparent;
+ margin: auto; 
+
+}
+
+#inputs {
+    text-align: center;
+    font-size: 15pt;
+    
+}
+
+.buttons {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#forgotpass {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    margin: -5%;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+}
+
+
+
+#blankbreak {
+
+height: 50px; width: 100%;
+
+>>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
 }
 #infobreak1 {
     height: 200px;
@@ -120,11 +182,24 @@
 
 .boldword1 {
     text-align: center;
+<<<<<<< HEAD
     opacity: 0.5;
+=======
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+>>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
 }
 #sectionbreak1 {
     text-align: center;
+<<<<<<< HEAD
     background-color: lightgray;
+=======
+
+>>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
 }
 
 /*profile page stylings*/
@@ -134,14 +209,27 @@
 }
 #profmenu {
     text-align: center;
+<<<<<<< HEAD
+=======
+    color: black
+
+
+>>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
 }
 .rowsn {
     text-align: center;
+      filter: alpha(opacity=60);
 }
 #pp {
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+
+
+    
+>>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
 /*payment page stylings*/
 
 #pay1 {
