@@ -1,11 +1,5 @@
 body {
-    padding-top: 40px;
-    background: url("photos/muffins.jpg") no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
+	padding-top: 40px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -32,17 +26,17 @@ background-size: cover;
     position: absolute;
 }
 
-#welcome {
-    text-align: center;
-    color: white;
+/*content boxes*/
+
+.contentbox {
+	background-color: blue;
+	height: 50px;
+	width: auto;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	padding-top: 3px;
 }
 
-#buttons {
-    padding: 25px;
-    display: flex;
-    justify-content: space-between;
-    }
-
-#forgotpass {
-    color: white;
+#contentboxtext {
+	color: white;
 }
