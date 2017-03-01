@@ -30,13 +30,20 @@ body {
 
 .contentbox {
 	background-color: blue;
-	height: 50px;
+	height: 70px;
 	width: auto;
 	margin-bottom: 5px;
-	padding-left: 10px;
-	padding-top: 3px;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#contentboxtext {
+.contentboxtext {
 	color: white;
+}
+
+.flexbutton{
+	padding-right: 20px;
 }
