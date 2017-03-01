@@ -5,12 +5,14 @@
     <title>EATS</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
-    <script src="scripts.js">
-    </script>
+    <script src="scripts.js"></script>
+    
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
+    <img id="i1" src="photos/bakery1.jpg"></img>
 </head>
 
 <body>
@@ -31,21 +33,23 @@
         </div>
     </nav>
     <br>
-    <p>Order Items:</P>
-    <p id="userOrder">Payment</p>
-    <br>
-    <br>
+    
+<div id="pay">
+    <p id="ordercss"> Order:Chocolate Chip Cookie</P>
+    <p id="userOrder"></p>
+    
     <p>Recipt:</p>
     <p>
-    <span id="itemTotal">Cost:$</span></p>
-    <p>Tax:$<span id="tax"></span></p>
-    <p>Total:$<span id="test"></p>
+    <span id="itemTotal">Cost:$0.75</span></p>
+    <p><span id="tax">Tax:$0.09</span></p>
+    <p><span id="test">Total:$0.84</p>
     
     <br>
     <br>
     <button id="clear">Clear Order</button>
     <button id="sendorder">Place Order</button>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="5S6KNS82JPPZQ">
 <table>
@@ -59,9 +63,21 @@
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+    
+    </div>
+    
+
+
+
+
+
+
+
+   
 
     
 
 
+    
     </body>
     </html>
