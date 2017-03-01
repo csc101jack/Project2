@@ -1,5 +1,10 @@
 /* Center brand on mobile*/
 
+#profpic {
+    right: 50px;
+    
+
+}
 @media only screen and (max-width: 768px) {
     .mynavbar .navbar-brand {
         padding: 0px;
@@ -50,37 +55,6 @@
 }
 
 #button1 { position: absolute; right: 20px; background-color: indianred; font-size: 40px; border-radius: 25px;
-
-}
-
-/* LOGIN PAGE */
-
-#loginbutton { background-color: darkgray; font-size: 20px; border-radius: 25px;
-
-}
-
-#loginback {
-
-background-image: url("photos/muffins.jpg");
-
-}
-
-#welcome {
-
-text-align: center; font-size: 500%;
-
-}
-
-
-#login {
-
-width: 300px; height: 300px; border: 25px; background-color: lightgray; margin: auto; text-align: center;
-
-}
-
-#blankbreak {
-
-height: 100px; width: 100%;
 
 }
 
@@ -139,11 +113,6 @@ font-weight: bold;
 }
 /*profile page stylings*/
 
-.profilemenu {
-
-font-size: 25px;
-
-}
 
 #profmenu {
 
@@ -151,20 +120,16 @@ font-size: 25px;
 
 }
 
-.rowsn {
+.row {
     text-align: center;
 }
 
 
-#pp {
-    text-align: center;
-}
-
-
+#profpic {
+    right: 50px;
     
-/*payment page stylings*/
 
-
+}
 #pay1 { 
     position: absolute; 
     right: 130px; 
@@ -183,5 +148,29 @@ font-size: 25px;
     font-size: 40px; 
     border-radius: 25px;
 }
+#i1{
+   
+    max-width:100%;
+    max-height:100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+}
+#pay{
+    border: solid 4px black;
+    width: 300px;
+    height: 325px;
+    border-radius:25px;
+    font-size:15px;
+    font-weight:bold;
+    position:absolute;
+    top:35%;
+    left:43%;
+    right:57%;
+    bottom:50%
+}
+
+
+    
 
 
