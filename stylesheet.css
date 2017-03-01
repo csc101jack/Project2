@@ -79,7 +79,11 @@
 /* LOGIN PAGE */
 
 #loginback {
-    background-image: url("photos/muffins.jpg");
+background: url("photos/muffins.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 #welcome {
@@ -340,11 +344,6 @@ font-weight: bold;
     bottom:65%
 }
 
-
-    
-
-<<<<<<< HEAD
-
 /*padding to remove navbar overlay*/
 
 body {
@@ -358,6 +357,3 @@ body {
     display: flex;
     flex-direction: row;
 }
-=======
-
->>>>>>> c08cd5e8c05c9ffe9d169be052a3e5185b8aa77b
