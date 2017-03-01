@@ -32,21 +32,55 @@ var locations = [
       })(marker, i));
     }
 
-  function newList(order) {
-  youritem = youritem + order;
-  document.getElementById("userOrder").innerHTML = youritem;
+
+// var yourItem = "";
+// function newlist(order) {
+//   yourItem = yourItem + order;
+//   document.getElementById("userOrder").innerHTML = yourItem;
   
+// }
+
+// //newlist("");
+
+// var itemTotal = 0;
+// var tax = 0;
+// var fprice = 0;
+// var orderTotal = 0;
+
+
+
+// function updateTotal(cost) {
+//   itemTotal = itemTotal + cost;
+//   tax = tax + (itemTotal*12);
+//   fprice = tax + itemTotal;
+//   console.log(fprice);
+//   document.getElementById("itemTotal").value = fprice;
+//   document.getElementById("itemTotal").innerHTML = fprice;
+//   document.getElementById("tax").innerHTML = tax;
+//   document.getElementById("test").innerHTML = fprice;
+// }
+// console.log(updateTotal); 
+
+
+// function updateList(order) {
+//   yourItem = yourItem + order;
+//   document.getElementById("userOrder").innerHTML = yourItem;
+// }
+// updateList("");
+
+// // function updateTotal(cost) {
+// //   orderTotal = orderTotal + cost;
+// //   document.getElementById("orderTotal").innerHTML = orderTotal;
+// //}
+// updateTotal(0);
+
+// document.getElementById("button1").onclick = function() {
+//   updateTotal(0.75);
+//   updateList("Chocolate Chip Cookie<br>");
+// }
+
+function placeOrder() {
+  alert('Order Is Ready For Pickup!');
+  console.log("placeOrder");
 }
-newList("")
-
-var itemTotal = 0;
-var tax = 0;
-var fprice = 0;
-
-function updateTotal(cost) {
-  itemTotal = itemTotal + cost;
-  tax = tax + (itemTotal*0.12);
-  fprice = tax + itemTotal;
-  document.getElementById("itemTotal").innerHTML = pizzaTotal;
-  document.getElementById("tax").innerHTML = tax;
-  document.getElementById("test").innerHTML = fprice;
+document.getElementById("sendorder").onclick = placeOrder;
