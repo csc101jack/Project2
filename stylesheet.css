@@ -29,7 +29,6 @@
     position: absolute;
 }
 
-
 /* Section Breaks (for seperating sections on webpage) */
 
 #sectionbreak {
@@ -43,84 +42,10 @@
     font-size: 40px; text-align: center;
 }
 
-
 /* Info Breaks (to display info like current deal etc. */
 
 #para1 { text-align: left; font-size: 40px; color: black;
 }
-
-#para2 {
-    text-align: left;
-    font-size: 40px;
-    color: red;
-}
-
-
-/* Subcribe Buttons */
-
-#button2 {
-    position: absolute;
-    right: 20px;
-    background-color: palegreen;
-    font-size: 40px;
-    border-radius: 25px;
-}
-
-#button1 {
-    position: absolute;
-    right: 20px;
-    background-color: indianred;
-    font-size: 40px;
-    border-radius: 25px;
-}
-
-
-/* LOGIN PAGE */
-
-#loginback {
-background: url("photos/muffins.jpg") no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-#welcome {
-    text-align: center;
-    color: white;
-}
-
-/* No longer using
-
-#login {
-    width: 300px;
-    height: 300px;
-    border: 25px;
-    margin: auto;
-    text-align: center;
-}
-
-*/
-
-#blankbreak {
-    height: 100px;
-    width: 100%;
-    width: 500px;
-    height: 300px;
-    border: 25px;
-    background-color: transparent;
-    margin: auto;
-}
-
-#inputs {
-    text-align: center;
-    font-size: 15pt;
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-around;
-
 #para2 { text-align: left; font-size: 40px; color: red;
 }
 /* Subcribe Buttons */
@@ -147,16 +72,6 @@ background-size: 100% auto;
 }
 #infobreak2 {
 
-/* I'm no longer using this
-
-#forgotpass {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15pt;
-    color: white;
-    text-align: center;
-    margin: -5%;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-=======
 height: 200px; width: 100%;
 
 background-image: url("photos/buns.jpg");
@@ -165,38 +80,9 @@ background-size: 100% auto;
 /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 
 
+
 }
 #infobreak3 {
-}
-
-#blankbreak {
-    height: 50px;
-    width: 100%l
-}
-
-#infobreak1 {
-    height: 200px;
-    width: 100%;
-    background-image: url("photos/cookies.jpg");
-    background-size: 100% auto;
-    /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
-    /* could have OPACITY if needed here is css for it opacity: 0.5; */
-}
-
-#infobreak2 {
-    height: 200px;
-    width: 100%;
-    background-image: url("photos/buns.jpg");
-    background-size: 100% auto;
-    /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
-}
-
-#infobreak3 {
-    height: 200px;
-    width: 100%;
-    background-image: url("photos/muffins.jpg");
-    background-size: 100% auto;
-    /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 
 height: 200px; width: 100%;
 
@@ -205,58 +91,26 @@ background-image: url("photos/muffins.jpg");
 background-size: 100% auto;
 /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 
+
 }
 
 #font {
 
-/*Name on the profile page */
 font-weight: bold;
 
 }
 /*Name on the profile page */
 .boldword1 {
     text-align: center;
-    opacity: 0.5;
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
     opacity: 0.5;
 }
 
 #sectionbreak1 {
     text-align: center;
+
     background-color: lightgray;
 }
-
-
-/*profile page stylings*/
-
-.profilemenu {
-    font-size: 25px;
-}
-
-#profmenu {
-    text-align: center;
-    color: black
-}
-
-.rowsn {
-    text-align: center;
-    filter: alpha(opacity=60);
-}
-
-#pp {
-    text-align: center;
-}
-
-/*payment page stylings*/
-
-/* Not sure what purpose this serves
-
-
-background-color: lightgray;
-}
-*/ 
-
 /*profile page stylings*/
 
 
@@ -273,41 +127,17 @@ background-color: lightgray;
 
 #profpic {
     right: 50px;
-
-#pay2 {
-    position: absolute;
-    right: 130px;
-    font-size: 40px;
-    border-radius: 25px;
-}
-
-#pay3 {
-    position: absolute;
-    right: 130px;
-    font-size: 40px;
+    
 
 }
-
-#pay1 { 
+#pay1, #pay2, #pay3 { 
     position: absolute; 
     right: 130px; 
     font-size: 40px; 
     border-radius: 25px;
     }
 
-#pay2 { 
-    position: absolute; 
-    right: 130px; 
-    font-size: 40px; 
-    border-radius: 25px;
-    }
-#pay3 { 
-    position: absolute; 
-    right: 130px; 
-    font-size: 40px; 
-    border-radius: 25px;
 }
-
 #i1{
    
     max-width:100%;
@@ -316,7 +146,6 @@ background-color: lightgray;
     filter: alpha(opacity=50);
     
 }
-
 #pay{
     border: solid 4px black;
     width: 200px;
@@ -331,12 +160,7 @@ background-color: lightgray;
     bottom:65%
 }
 
-/*padding to remove navbar overlay*/
 
-#eatsbackground {
-    height: 50px;
-    width: 50px;
-    background-color: blue;
-    display: flex;
-    flex-direction: row;
-}
+    
+
+
