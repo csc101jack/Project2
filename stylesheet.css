@@ -14,6 +14,7 @@
     }
 }
 
+
 /* Center background on navbar */
 
 .mynavbar .navbar-brand {
@@ -82,7 +83,40 @@ text-shadow:
 
 #login {
 
-width: 300px; height: 300px; border: 25px; background-color: lightgray; margin: auto; text-align: center;
+width: 500px; 
+height: 300px; 
+border: 25px; 
+background-color: transparent;
+ margin: auto; 
+
+}
+
+#inputs {
+    text-align: center;
+    font-size: 15pt;
+    
+}
+
+.buttons {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#forgotpass {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    margin: -5%;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 
 }
 
@@ -138,14 +172,17 @@ font-weight: bold;
 /*Name on the profile page */
 .boldword1 {
     text-align: center;
-
-    opacity: 0.5;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
 #sectionbreak1 {
     text-align: center;
 
-    background-color: lightgray;
 }
 /*profile page stylings*/
 
@@ -158,17 +195,21 @@ font-size: 25px;
 #profmenu {
 
     text-align: center;
+    color: black
+
 
 }
 
 .rowsn {
     text-align: center;
+      filter: alpha(opacity=60);
 }
 
 
 #pp {
     text-align: center;
 }
+
 
 
     

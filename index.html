@@ -11,6 +11,9 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body id="loginback">
@@ -71,21 +74,23 @@
 
         <div id="login">
         <br>
-        <img src="photos/unknownprofile.jpg" style="width:100px;height:100px;">
+    
         
         <form action="/action_page.php">
-        Username:<br>
-        <input type="text" name="firstname">
-        <br>
-        Password:<br>
-        <input type="text" name="lastname">
+<div id="inputs">
+        <input type="text" placeholder="Username" name="firstname">
+
+        <input type="text" placeholder="Password"  name="lastname">
         <br>
         </form>
-
+</div>
         <br>
+<div class="buttons">
+        <button id="loginbutton">
+       <a href="myprofile.html">Login </a> </button>
 
         <button id="loginbutton">
-       <a href="myprofile.html">Login</a> </button>
+       <a href="myprofile.html">Sign Up</a> </button>
 
         </div>
 
