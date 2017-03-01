@@ -25,15 +25,18 @@
     position: absolute;
 }
 
+
 /* Section Breaks (for seperating sections on webpage) */
 
 #sectionbreak {
     background-color: lightgray;
 }
+
 .boldword {
     font-size: 40px;
     text-align: center;
 }
+
 
 /* Info Breaks (to display info like current deal etc. */
 
@@ -42,11 +45,13 @@
     font-size: 40px;
     color: black;
 }
+
 #para2 {
     text-align: left;
     font-size: 40px;
     color: red;
 }
+
 
 /* Subcribe Buttons */
 
@@ -57,6 +62,7 @@
     font-size: 40px;
     border-radius: 25px;
 }
+
 #button1 {
     position: absolute;
     right: 20px;
@@ -65,93 +71,64 @@
     border-radius: 25px;
 }
 
+
 /* LOGIN PAGE */
 
-#loginbutton {
-    background-color: darkgray;
-    font-size: 20px;
-    border-radius: 25px;
-}
 #loginback {
     background-image: url("photos/muffins.jpg");
 }
+
 #welcome {
-<<<<<<< HEAD
     text-align: center;
-    font-size: 500%;
-=======
-
-text-align: left; 
-margin: 50px;
-font-size: 500%;
-color: white;
-text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
-
->>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
+    color: white;
 }
+
 #login {
-<<<<<<< HEAD
     width: 300px;
     height: 300px;
     border: 25px;
-    background-color: lightgray;
     margin: auto;
     text-align: center;
 }
+
 #blankbreak {
     height: 100px;
     width: 100%;
-=======
-
-width: 500px; 
-height: 300px; 
-border: 25px; 
-background-color: transparent;
- margin: auto; 
-
+    =======width: 500px;
+    height: 300px;
+    border: 25px;
+    background-color: transparent;
+    margin: auto;
 }
 
 #inputs {
     text-align: center;
     font-size: 15pt;
-    
 }
 
 .buttons {
-
     display: flex;
     justify-content: space-around;
-
 }
 
+/* I'm no longer using this
 
 #forgotpass {
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15pt;
     color: white;
     text-align: center;
     margin: -5%;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
-
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-
+*/
 
 #blankbreak {
-
-height: 50px; width: 100%;
-
->>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
+    height: 50px;
+    width: 100%;
 }
+
 #infobreak1 {
     height: 200px;
     width: 100%;
@@ -160,6 +137,7 @@ height: 50px; width: 100%;
     /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
     /* could have OPACITY if needed here is css for it opacity: 0.5; */
 }
+
 #infobreak2 {
     height: 200px;
     width: 100%;
@@ -167,6 +145,7 @@ height: 50px; width: 100%;
     background-size: 100% auto;
     /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 }
+
 #infobreak3 {
     height: 200px;
     width: 100%;
@@ -174,62 +153,49 @@ height: 50px; width: 100%;
     background-size: 100% auto;
     /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 }
+
 #font {
     font-weight: bold;
 }
+
 
 /*Name on the profile page */
 
 .boldword1 {
     text-align: center;
-<<<<<<< HEAD
-    opacity: 0.5;
-=======
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
->>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
+    <<<<<<< HEAD opacity: 0.5;
+    =======color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    >>>>>>>92b2b41d75a67a4794dee4f61025d16102eabcb3
 }
+
 #sectionbreak1 {
     text-align: center;
-<<<<<<< HEAD
-    background-color: lightgray;
-=======
-
->>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
+    <<<<<<< HEAD background-color: lightgray;
+    =======>>>>>>>92b2b41d75a67a4794dee4f61025d16102eabcb3
 }
+
 
 /*profile page stylings*/
 
 .profilemenu {
     font-size: 25px;
 }
+
 #profmenu {
     text-align: center;
-<<<<<<< HEAD
-=======
-    color: black
-
-
->>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
+    <<<<<<< HEAD=======color: black >>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
 }
+
 .rowsn {
     text-align: center;
-      filter: alpha(opacity=60);
+    filter: alpha(opacity=60);
 }
+
 #pp {
     text-align: center;
 }
 
-<<<<<<< HEAD
-=======
-
-
-    
->>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
 /*payment page stylings*/
 
 #pay1 {
@@ -238,12 +204,14 @@ height: 50px; width: 100%;
     font-size: 40px;
     border-radius: 25px;
 }
+
 #pay2 {
     position: absolute;
     right: 130px;
     font-size: 40px;
     border-radius: 25px;
 }
+
 #pay3 {
     position: absolute;
     right: 130px;
@@ -251,12 +219,14 @@ height: 50px; width: 100%;
     border-radius: 25px;
 }
 
+
 /*padding to remove navbar overlay*/
 
 body {
     padding-top: 50px;
 }
-#background {
+
+#eatsbackground {
     height: 50px;
     width: 50px;
     background-color: blue;

@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>EATS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <script src="scripts.js">
@@ -11,9 +11,8 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>EATS</title>
 </head>
 
 <body id="loginback">
@@ -29,76 +28,76 @@
                     <li>
                         <a href="eat.html" rel="nofollow">Eat</a>
                     </li>
+
+
                     <li>
                         <a href="myprofile.html" rel="nofollow">My Profile</a>
                     </li>
+
+
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
+
                         <ul class="dropdown-menu">
-                            <li><a href="#">Our Story</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">FAQs</a></li>                        
+                            <li>
+                                <a href="#">Our Story</a>
+                            </li>
+
+
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+
+
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-<br>
-
-<div class="continer-fluid" class="img-responsive" id="loginback">
-
- <div class="row">
-
-        <div class="col-lg-12" id="blankbreak">
-
-       </div>
-       
-    </div>
 
 
-<h1 id="welcome">
-    Great Food.
-    Cheap.
-</h1>
-
-    <div class="row">
-
-        <div class="col-lg-12" id="blankbreak">
-
-       </div>
-       
-    </div>
-
-<!-- BOX LOGIN -->
-
-        <div id="login">
-        <br>
-    
-        
-        <form action="/action_page.php">
-<div id="inputs">
-        <input type="text" placeholder="Username" name="firstname">
-
-        <input type="text" placeholder="Password"  name="lastname">
-        <br>
-        </form>
-</div>
-        <br>
-<div class="buttons">
-        <button id="loginbutton">
-       <a href="myprofile.html">Login </a> </button>
-
-        <button id="loginbutton">
-       <a href="myprofile.html">Sign Up</a> </button>
-
+    <div>
+        <div>
+            <h1 id="welcome">Great Food. Cheap.</h1>
         </div>
 
-</div>
 
-<p id="forgotpass">
-    Forgot your password?
-</p>
+        <div>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4"">
+                        <input class="form-control" id="inputEmail3" placeholder="Email" type="email">
+                    </div>
+                </div>
 
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <input class="form-control" id="inputPassword3" placeholder="Password" type="password">
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4 text-center">
+                        <button class="btn btn-default" type="submit">Sign in</button> <button class="btn btn-default" type="submit">Sign in</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
