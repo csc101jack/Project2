@@ -35,4 +35,15 @@ background-size: cover;
 #welcome {
     text-align: center;
     color: white;
+    padding: 40px;
 }
+
+#padding {
+padding: 25px;
+}
+
+#buttons {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    }
