@@ -48,7 +48,6 @@
 
 #para1 { text-align: left; font-size: 40px; color: black;
 }
-<<<<<<< HEAD
 
 #para2 {
     text-align: left;
@@ -106,7 +105,7 @@ background-size: cover;
 #blankbreak {
     height: 100px;
     width: 100%;
-    =======width: 500px;
+    width: 500px;
     height: 300px;
     border: 25px;
     background-color: transparent;
@@ -121,7 +120,7 @@ background-size: cover;
 .buttons {
     display: flex;
     justify-content: space-around;
-=======
+
 #para2 { text-align: left; font-size: 40px; color: red;
 }
 /* Subcribe Buttons */
@@ -145,11 +144,9 @@ background-size: 100% auto;
 
 /* could have OPACITY if needed here is css for it opacity: 0.5; */
 
->>>>>>> c08cd5e8c05c9ffe9d169be052a3e5185b8aa77b
 }
 #infobreak2 {
 
-<<<<<<< HEAD
 /* I'm no longer using this
 
 #forgotpass {
@@ -168,17 +165,13 @@ background-size: 100% auto;
 /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 
 
-
->>>>>>> c08cd5e8c05c9ffe9d169be052a3e5185b8aa77b
 }
 #infobreak3 {
-
-<<<<<<< HEAD
-*/
+}
 
 #blankbreak {
     height: 50px;
-    width: 100%;
+    width: 100%l
 }
 
 #infobreak1 {
@@ -204,7 +197,7 @@ background-size: 100% auto;
     background-image: url("photos/muffins.jpg");
     background-size: 100% auto;
     /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
-=======
+
 height: 200px; width: 100%;
 
 background-image: url("photos/muffins.jpg");
@@ -212,39 +205,26 @@ background-image: url("photos/muffins.jpg");
 background-size: 100% auto;
 /* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
 
-
->>>>>>> c08cd5e8c05c9ffe9d169be052a3e5185b8aa77b
 }
 
 #font {
 
-<<<<<<< HEAD
-
 /*Name on the profile page */
-=======
 font-weight: bold;
->>>>>>> c08cd5e8c05c9ffe9d169be052a3e5185b8aa77b
 
 }
 /*Name on the profile page */
 .boldword1 {
     text-align: center;
-<<<<<<< HEAD
-    <<<<<<< HEAD opacity: 0.5;
-    =======color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    >>>>>>>92b2b41d75a67a4794dee4f61025d16102eabcb3
-=======
-
     opacity: 0.5;
->>>>>>> c08cd5e8c05c9ffe9d169be052a3e5185b8aa77b
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    opacity: 0.5;
 }
 
 #sectionbreak1 {
     text-align: center;
-<<<<<<< HEAD
-    <<<<<<< HEAD background-color: lightgray;
-    =======>>>>>>>92b2b41d75a67a4794dee4f61025d16102eabcb3
+    background-color: lightgray;
 }
 
 
@@ -256,7 +236,7 @@ font-weight: bold;
 
 #profmenu {
     text-align: center;
-    <<<<<<< HEAD=======color: black >>>>>>> 92b2b41d75a67a4794dee4f61025d16102eabcb3
+    color: black
 }
 
 .rowsn {
@@ -269,10 +249,14 @@ font-weight: bold;
 }
 
 /*payment page stylings*/
-=======
 
-    background-color: lightgray;
+/* Not sure what purpose this serves
+
+
+background-color: lightgray;
 }
+*/ 
+
 /*profile page stylings*/
 
 
@@ -289,11 +273,6 @@ font-weight: bold;
 
 #profpic {
     right: 50px;
-    
->>>>>>> c08cd5e8c05c9ffe9d169be052a3e5185b8aa77b
-
-}
-<<<<<<< HEAD
 
 #pay2 {
     position: absolute;
@@ -306,13 +285,16 @@ font-weight: bold;
     position: absolute;
     right: 130px;
     font-size: 40px;
-=======
+
+}
+
 #pay1 { 
     position: absolute; 
     right: 130px; 
     font-size: 40px; 
     border-radius: 25px;
     }
+
 #pay2 { 
     position: absolute; 
     right: 130px; 
@@ -323,9 +305,9 @@ font-weight: bold;
     position: absolute; 
     right: 130px; 
     font-size: 40px; 
->>>>>>> c08cd5e8c05c9ffe9d169be052a3e5185b8aa77b
     border-radius: 25px;
 }
+
 #i1{
    
     max-width:100%;
@@ -334,6 +316,7 @@ font-weight: bold;
     filter: alpha(opacity=50);
     
 }
+
 #pay{
     border: solid 4px black;
     width: 200px;
@@ -349,11 +332,6 @@ font-weight: bold;
 }
 
 /*padding to remove navbar overlay*/
-
-body {
-    padding-top: 100px;
-}
-
 
 #eatsbackground {
     height: 50px;
