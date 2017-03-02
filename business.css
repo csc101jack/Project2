@@ -18,6 +18,12 @@ body {
 
 /* Center background on navbar */
 
+#photo {
+
+    width: 100%; height: 400px;
+}
+
+
 .mynavbar .navbar-brand {
     background: url(photos/logo.png) center / contain no-repeat;
     width: 200px;
