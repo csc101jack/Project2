@@ -29,68 +29,70 @@ body {
 /*content boxes*/
 
 .contentbox1{
-	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	background: url("photos/muffins.jpg") no-repeat center center;
 	height: 70px;
 	width: auto;
-	margin-bottom: 5px;
 	padding-left: 20px;
 	display: -webkit-flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    background-size: 100% auto;
 }
 
 .contentbox2{
-	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	background: url("photos/cookies.jpg") no-repeat center center; 
 	height: 70px;
 	width: auto;
-	margin-bottom: 5px;
 	padding-left: 20px;
 	display: -webkit-flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    background-size: 100% auto;
 }
 
 .contentbox3{
-	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	background: url("photos/pie.jpg") no-repeat center center; 
 	height: 70px;
 	width: auto;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	padding-left: 20px;
 	display: -webkit-flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    background-size: 100% auto;
 }
 
 .contentbox4{
-	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	background: url("photos/brownie.jpg") no-repeat center center; 
 	height: 70px;
 	width: auto;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	padding-left: 20px;
 	display: -webkit-flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    background-size: 100% auto;
 }
 
 .contentbox5{
-	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	background: url("photos/balls.jpg") no-repeat center center;
 	height: 70px;
 	width: auto;
-	margin-bottom: 5px;
 	padding-left: 20px;
 	display: -webkit-flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    background-size: 100% auto;
 }
 .contentboxtext {
 	color: white;
