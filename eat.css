@@ -28,8 +28,8 @@ body {
 
 /*content boxes*/
 
-.contentbox {
-	background-color: blue;
+.contentbox1{
+	background: url("photos/muffins.jpg") no-repeat center center fixed; 
 	height: 70px;
 	width: auto;
 	margin-bottom: 5px;
@@ -38,12 +38,60 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 20px;
 }
 
+.contentbox2{
+	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	height: 70px;
+	width: auto;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.contentbox3{
+	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	height: 70px;
+	width: auto;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.contentbox4{
+	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	height: 70px;
+	width: auto;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.contentbox5{
+	background: url("photos/muffins.jpg") no-repeat center center fixed; 
+	height: 70px;
+	width: auto;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
 .contentboxtext {
 	color: white;
-}
-
-.flexbutton{
-	padding-right: 20px;
 }
