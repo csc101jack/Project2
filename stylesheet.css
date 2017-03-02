@@ -138,7 +138,7 @@ font-weight: bold;
     }
 
 }
-#i1{
+#paymentbg {
    
     max-width:100%;
     max-height:100%;
@@ -147,6 +147,9 @@ font-weight: bold;
     
 }
 #pay{
+    background-color: #d3d3d3;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
     border: solid 4px black;
     width: 200px;
     height: 295px;
