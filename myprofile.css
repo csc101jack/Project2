@@ -25,3 +25,7 @@ body {
     left: 50%;
     position: absolute;
 }
+
+img {
+    width: 100%;
+}
